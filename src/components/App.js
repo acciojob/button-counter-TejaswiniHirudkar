@@ -3,10 +3,10 @@ import React, { useState } from "react";
 import './../styles/App.css';
 
 const App = () => {
-  const [count, setCount]=useState(1);
+  const [count, setCount]=useState('0');
 
   const handleCount=()=>{
-    setCount[count+1];
+    setCount(count+1);
   }
   return (
     <div>
